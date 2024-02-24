@@ -25,8 +25,8 @@ $configFilePath = "C:\Program Files\Sunshine\config\sunshine.conf"
 
 # Check if the configuration file exists
 if (-not (Test-Path $configFilePath -PathType Leaf)) {
-    Write-Host "Sunshine is not installed!  Please install Sunshine before executing."
-    exit
+    Write-Host "Sunshine is not installed!  Let's do that for you."
+    
 }
 
 'Sunshine installation found.  Verifying configuration.'
